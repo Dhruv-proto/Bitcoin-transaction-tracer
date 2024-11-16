@@ -6,9 +6,13 @@ This is a bitcoin forensic tool that is used to trace and visualize bitcoin tran
    ```
    git clone <repo url>
    ```
-2) Go to the destination folder of your pc where you copied the repo
-3) cd to src folder.
-4) Run the program using following command
+2) Go to the destination folder of your pc where you copied the repo.
+3) Install all the required libraries
+   ```
+   pip install -r requirements.txt
+   ```
+5) cd to src folder.
+6) Run the program using following command
    ```
    python src.py
    ```
